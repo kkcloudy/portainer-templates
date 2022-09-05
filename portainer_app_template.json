@@ -1427,14 +1427,14 @@
           "description": "Path to store local backups."
         }
       ],
-      "logo": "https://raw.githubusercontent.com/RAKWireless/portainer-templates/master/logo/duplicati_logo.png",
+      "logo": "https://raw.githubusercontent.com/kkcloudy/portainer-templates/master/logo/duplicati_logo.png",
       "name": "Duplicati",
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Duplicati",
       "repository": {
         "stackfile": "Stack/duplicati/duplicati.yml",
-        "url": "https://github.com/RAKWireless/portainer-templates"
+        "url": "https://github.com/kkcloudy/portainer-templates"
       },
       "type": 3,
       "network": "bridge",
