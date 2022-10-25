@@ -1477,7 +1477,7 @@
           "description": "Specifies your databse path."
         }
       ],
-      "logo": "https://manual.seafile.com/media/seafile-transparent-1024.png",
+      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/filebrowser_logo.png",
       "name": "filebrowser",
       "platform": "linux",
       "repository": {
