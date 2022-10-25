@@ -1446,7 +1446,7 @@
       ],
       "description": "filebrowser is an open source file sync&share solution designed for high reliability, performance and productivity.",
       "post_up_info": "Browse to http://{host-ip}:8080 to access the web interface. HTTPS is not enabled by default.\nDeafault username:admin, default password:admin",
-      "note": "Browse to <a href='http://{host-ip}:<8080'>http://{host-ip}:8080</a> to access the web interface.<br>default username<b>admin</b> default passpword<b>admin</b>",
+      "note": "Browse to <a href='http://{host-ip}:<8080'>http://{host-ip}:8080</a> to access the web interface.<br>default username: <b>admin</b> default passpword: <b>admin</b>",
       "env": [
         {
           "default": "1000",
@@ -1481,7 +1481,7 @@
       "name": "filebrowser",
       "platform": "linux",
       "repository": {
-        "stackfile": "Stack/filebroswer.yml",
+        "stackfile": "Stack/filebrowser.yml",
         "url": "https://github.com/kkcloudy/portainer-templates"
       },
       "title": "FileBrowser",
