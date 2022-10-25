@@ -1439,6 +1439,53 @@
       "type": 3,
       "network": "bridge",
       "note": "Browse to <a href='http://{host-ip}:<8200'>http://{host-ip}:8200</a> to access the web interface."
+    },
+    {
+      "categories": [
+        "File Browser"
+      ],
+      "description": "filebrowser is an open source file sync&share solution designed for high reliability, performance and productivity.",
+      "post_up_info": "Browse to http://{host-ip}:8080 to access the web interface. HTTPS is not enabled by default.\nDeafault username:admin, default password:admin",
+      "note": "Browse to <a href='http://{host-ip}:<8080'>http://{host-ip}:8080</a> to access the web interface.<br>default username<b>admin</b> default passpword<b>admin</b>",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "default": "/opt/filebrowser/root",
+          "label": "FILE_ROOT_PATH",
+          "name": "FILE_ROOT_PATH",
+          "description": "Specifies your file root path."
+        },
+        {
+          "default": "/opt/filebrowser/config",
+          "label": "CONFIG_PATH",
+          "name": "CONFIG_PATH",
+          "description": "Specifies your configuration file path."
+        },
+        {
+          "default": "/opt/filebrowser/database",
+          "label": "DATABASE_PATH",
+          "name": "DATABASE_PATH",
+          "description": "Specifies your databse path."
+        }
+      ],
+      "logo": "https://manual.seafile.com/media/seafile-transparent-1024.png",
+      "name": "filebrowser",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Stack/filebroswer.yml",
+        "url": "https://github.com/kkcloudy/portainer-templates"
+      },
+      "title": "FileBrowser",
+      "type": 3
     }
   ]
 }
