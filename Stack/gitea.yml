@@ -16,7 +16,7 @@ services:
     networks:
       - gitea
     volumes:
-      - ./gitea:/data
+      - ${GITEA_DATA_PATH:-/opt/gitea/data}:/data
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     ports:
