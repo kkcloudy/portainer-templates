@@ -10,7 +10,7 @@ services:
     container_name: gitea
     environment:
       - USER_UID=${PUID:-1000}
-      - USER_GID={PGID:-100}
+      - USER_GID=${PGID:-100}
       - GITEA__database__DB_TYPE=postgres
       - GITEA__database__HOST=db:5432
       - GITEA__database__NAME=gitea
