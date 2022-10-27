@@ -1492,8 +1492,8 @@
         "Git"
       ],
       "description": "Gitea is a community managed lightweight code hosting solution written in Go.",
-      "post_up_info": "Browse to http://{host-ip}:3000 to access the web interface.\nDeafault username: admin\nDefault password: admin",
-      "note": "Browse to <a href='http://{host-ip}:<3000'>http://{host-ip}:3000</a> to access the web interface.<ulstyle='padding-left:20px'><li>Default username: admin</li><li>Default password: admin</li>",
+      "post_up_info": "Visit http://host-ip:3000 and follow the installation wizard.\n",
+      "note": "Visit <a href='http://{host-ip}:<3000'>http://{host-ip}:3000</a> and follow the installation wizard.",
       "env": [
         {
           "default": "1000",
@@ -1518,7 +1518,7 @@
           "description": "Specifies your postgres data path."
         }
       ],
-      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/filebrowser_logo.png",
+      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/gitea_logo.png",
       "name": "gitea",
       "platform": "linux",
       "repository": {
