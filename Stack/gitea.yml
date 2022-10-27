@@ -1,9 +1,5 @@
 version: "3"
 
-networks:
-  gitea:
-    external: false
-
 services:
   server:
     image: gitea/gitea:1.17.3
@@ -39,3 +35,6 @@ services:
       - gitea
     volumes:
       - ${POSTGRES_DATA_PATH:-/opt/postgres/data}:/var/lib/postgresql/data
+
+networks:
+  -gitea
