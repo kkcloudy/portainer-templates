@@ -1493,7 +1493,7 @@
       ],
       "description": "Gitea is a community managed lightweight code hosting solution written in Go.",
       "post_up_info": "Visit http://host-ip:3000 and follow the installation wizard.\n",
-      "note": "Visit <a href='http://{host-ip}:<3000'>http://{host-ip}:3000</a> and follow the installation wizard.",
+      "note": "Visit <a href='http://{host-ip}:<3000'>http://{host-ip}:3000</a> and follow the installation wizard.<br>Change the <b>Server domain</b> to {host-ip}<br>Change the <b>SSH Server Port</b> to 222<br>Change the <b>Gitea Base URL</b> to http://{host-ip}:3000/",
       "env": [
         {
           "default": "1000",
