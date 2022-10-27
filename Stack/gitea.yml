@@ -23,8 +23,8 @@ services:
       - ${GITEA_DATA_PATH:-/opt/gitea/data}:/data
       - /etc/timezone:/etc/timezone:ro
     ports:
-      - "3000:3000"
-      - "222:22"
+      - 3000:3000
+      - 222:22
     depends_on:
       - db
 
