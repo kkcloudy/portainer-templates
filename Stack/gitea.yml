@@ -8,6 +8,7 @@ services:
   server:
     image: gitea/gitea:1.17.3
     container_name: gitea
+    user: git
     environment:
       - USER_UID=${PUID:-1000}
       - USER_GID={PGID:-100}
