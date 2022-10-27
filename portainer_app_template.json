@@ -1484,7 +1484,7 @@
         "stackfile": "Stack/filebrowser.yml",
         "url": "https://github.com/kkcloudy/portainer-templates"
       },
-      "title": "Gitea",
+      "title": "File Browser",
       "type": 3
     },
      {
@@ -1525,7 +1525,7 @@
         "stackfile": "Stack/gitea.yml",
         "url": "https://github.com/kkcloudy/portainer-templates"
       },
-      "title": "File Browser",
+      "title": "Gitea",
       "type": 3
     }
   ]
