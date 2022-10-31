@@ -7,11 +7,11 @@ services:
       - '80:80'
       - '443:443'
     environment:
-      - DB_MYSQL_HOST: "db"
-      - DB_MYSQL_PORT: 3306
-      - DB_MYSQL_USER: "npm"
-      - DB_MYSQL_PASSWORD: "npm"
-      - DB_MYSQL_NAME: "npm"
+      - DB_MYSQL_HOST=db
+      - DB_MYSQL_PORT=3306
+      - DB_MYSQL_USER=npm
+      - DB_MYSQL_PASSWORD=npm
+      - DB_MYSQL_NAME=npm
     volumes:
       - ${NGINX_DATA_PATH:-/opt/nginxproxymanager/data}:/data
       - ${LETSENCRYPT_DATA_PATH:-/opt/nginxproxymanager/letsencrypt}:/etc/letsencrypt
@@ -21,9 +21,9 @@ services:
     image: 'jc21/mariadb-aria:latest'
     restart: unless-stopped
     environment:
-      - MYSQL_ROOT_PASSWORD: 'npm'
-      - MYSQL_DATABASE: 'npm'
-      - MYSQL_USER: 'npm'
-      - MYSQL_PASSWORD: 'npm'
+      - MYSQL_ROOT_PASSWORD=npm
+      - MYSQL_DATABASE=npm
+      - MYSQL_USER=npm
+      - MYSQL_PASSWORD=npm
     volumes:
       - ${MYSQL_DATA_PATH:-/opt/nginxproxymanager/mysql}:/var/lib/mysql
