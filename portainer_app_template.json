@@ -1555,11 +1555,11 @@
           "description": "Specifies your mysql data path."
         }
       ],
-      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/gitea_logo.png",
-      "name": "nginxproxymanager",
+      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/npm_logo.png",
+      "name": "nginx-proxy-manager",
       "platform": "linux",
       "repository": {
-        "stackfile": "Stack/nginxproxymanager.yml",
+        "stackfile": "Stack/npm.yml",
         "url": "https://github.com/kkcloudy/portainer-templates"
       },
       "title": "NginxProxyManager",
