@@ -1527,6 +1527,43 @@
       },
       "title": "Gitea",
       "type": 3
+    },
+    {
+      "categories": [
+        "Git"
+      ],
+      "description": "Nginx Proxy Manager is a reverse proxy based on Nginx with a nice WebUi to configure the different backends.",
+      "post_up_info": "Browse to http://{host-ip}:81 to access the web interface.\nDeafault username: admin@example.com\nDefault password: changeme",
+      "note": "Browse to <a href='http://{host-ip}:<81'>http://{host-ip}:81</a> to access the web interface.<ulstyle='padding-left:20px'><li>Default username: admin@example.com</li><li>Default password: changeme</li>",
+      "env": [
+        {
+          "default": "/opt/nginxproxymanager/data",
+          "label": "NGINX_DATA_PATH",
+          "name": "NGINX_DATA_PATH",
+          "description": "Specifies your nginx data path."
+        },
+        {
+          "default": "/opt/nginxproxymanager/letsencrypt",
+          "label": "LETSENCRYPT_DATA_PATH",
+          "name": "LETSENCRYPT_DATA_PATH",
+          "description": "Specifies your letsencrypt data path."
+        },
+        {
+          "default": "/opt/nginxproxymanager/mysql",
+          "label": "MYSQL_DATA_PATH",
+          "name": "MYSQL_DATA_PATH",
+          "description": "Specifies your mysql data path."
+        }
+      ],
+      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/gitea_logo.png",
+      "name": "nginxproxymanager",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Stack/nginxproxymanager.yml",
+        "url": "https://github.com/kkcloudy/portainer-templates"
+      },
+      "title": "NginxProxyManager",
+      "type": 3
     }
   ]
 }
