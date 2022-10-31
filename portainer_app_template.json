@@ -1530,7 +1530,7 @@
     },
     {
       "categories": [
-        "Git"
+        "Reverse Proxy"
       ],
       "description": "Nginx Proxy Manager is a reverse proxy based on Nginx with a nice WebUi to configure the different backends.",
       "post_up_info": "Browse to http://{host-ip}:81 to access the web interface.\nDeafault username: admin@example.com\nDefault password: changeme",
