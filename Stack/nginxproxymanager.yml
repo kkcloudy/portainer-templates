@@ -14,7 +14,7 @@ services:
       - DB_MYSQL_PASSWORD: "npm"
       - DB_MYSQL_NAME: "npm"
     volumes:
-      - ${NGINX_DATA_PATH -/opt/nginxproxymanager/data}:/data
+      - ${NGINX_DATA_PATH:-/opt/nginxproxymanager/data}:/data
       - ${LETSENCRYPT_DATA_PATH:-/opt/nginxproxymanager/letsencrypt}:/etc/letsencrypt
     depends_on:
       - db
