@@ -18,7 +18,6 @@ services:
       - ${LETSENCRYPT_DATA_PATH:-/opt/nginxproxymanager/letsencrypt}:/etc/letsencrypt
     depends_on:
       - db
-
   db:
     image: 'jc21/mariadb-aria:latest'
     restart: unless-stopped
