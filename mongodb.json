@@ -7,8 +7,8 @@
         "database"
       ],
       "description": "MongoDB is a document-oriented NoSQL database used for high volume data storage.",
-      "post_up_info": "Browse to http://{host-ip}:8081 to access the mongodb-express web interface.",
-      "note": "Browse to <a href='http://{host-ip}:<8081'>http://{host-ip}:8081</a> to access the mongodb-express web interface.<ulstyle='padding-left:20px'>",
+      "post_up_info": "Browse to http://{host-ip}:8081 to access the mongo-express web interface.",
+      "note": "Browse to <a href='http://{host-ip}:<8081'>http://{host-ip}:8081</a> to access the mongo-express web interface.<ulstyle='padding-left:20px'>",
       "env": [
         {
           "default": "root",
