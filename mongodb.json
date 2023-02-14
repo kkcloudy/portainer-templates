@@ -6,19 +6,21 @@
       "categories": [
         "database"
       ],
-      "description": "Nginx Proxy Manager is a reverse proxy based on Nginx with a nice WebUi to configure the different backends.",
-      "post_up_info": "Browse to http://{host-ip}:81 to access the web interface.\nDeafault username: admin@example.com\nDefault password: changeme",
-      "note": "Browse to <a href='http://{host-ip}:<81'>http://{host-ip}:81</a> to access the web interface.<ulstyle='padding-left:20px'><li>Default username: admin@example.com</li><li>Default password: changeme</li>",
+      "description": "MongoDB is a document-oriented NoSQL database used for high volume data storage.",
+      "post_up_info": "Browse to http://{host-ip}:8081 to access the mongodb-express web interface.",
+      "note": "Browse to <a href='http://{host-ip}:<8081'>http://{host-ip}:8081</a> to access the mongodb-express web interface.<ulstyle='padding-left:20px'>",
       "env": [
         {
           "default": "root",
           "label": "MONGO_INITDB_ROOT_USERNAME",
-          "name": "MONGO_INITDB_ROOT_USERNAME"
+          "name": "MONGO_INITDB_ROOT_USERNAME",
+          "describle":"specify the root username of mongo init database"
         },
         {
           "default": "changeme",
           "label": "MONGO_INITDB_ROOT_PASSWORD",
-          "name": "MONGO_INITDB_ROOT_PASSWORD"
+          "name": "MONGO_INITDB_ROOT_PASSWORD",
+          "describle": "specify the root password of mongo init database"
         }
       ],
       "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/MongoDB_logo.png",
