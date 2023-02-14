@@ -14,13 +14,13 @@
           "default": "root",
           "label": "MONGO_INITDB_ROOT_USERNAME",
           "name": "MONGO_INITDB_ROOT_USERNAME",
-          "describle":"specify the root username of mongo init database"
+          "description":"specify the root username of mongo init database"
         },
         {
           "default": "changeme",
           "label": "MONGO_INITDB_ROOT_PASSWORD",
           "name": "MONGO_INITDB_ROOT_PASSWORD",
-          "describle": "specify the root password of mongo init database"
+          "description": "specify the root password of mongo init database"
         }
       ],
       "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/MongoDB_logo.png",
