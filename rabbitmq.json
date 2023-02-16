@@ -7,8 +7,8 @@
         "Broker"
       ],
       "description": "RabbitMQ is open source message broker software that implements the Advanced Message Queuing Protocol (AMQP). ",
-      "post_up_info": "Browse to http://{host-ip}:15672 to access the rabbitmq-management web interface.",
-      "note": "Browse to <a href='http://{host-ip}:<15672'>http://{host-ip}:15672</a> to access the rabbitmq-management web interface.<ulstyle='padding-left:20px'>",
+      "post_up_info": "Browse to http://{host-ip}:15672 to access the rabbitmq-management web interface.\nDeafault username: admin\nDefault password: changeme",
+      "note": "Browse to <a href='http://{host-ip}:<15672'>http://{host-ip}:15672</a> to access the rabbitmq-management web interface.<ulstyle='padding-left:20px'><li>Default username: admin</li><li>Default password: admin</li>",
       "env": [
         {
           "default": "root",
