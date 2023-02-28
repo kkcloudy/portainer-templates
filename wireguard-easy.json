@@ -24,7 +24,7 @@
       "name": "wireguard-easy",
       "platform": "linux",
       "repository": {
-        "stackfile": "Stack/RabbitMQ/wireguard-easy.yml",
+        "stackfile": "Stack/WireGuard/wireguard-easy.yml",
         "url": "https://github.com/kkcloudy/portainer-templates"
       },
       "title": "WireGuard easy",
