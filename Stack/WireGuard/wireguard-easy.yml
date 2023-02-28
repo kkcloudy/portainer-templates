@@ -4,8 +4,8 @@ services:
     image: weejewel/wg-easy
     restart: unless-stopped
     ports:
-      - 51820:51820
-      - 51821:51821
+      - 51820:51820/udp
+      - 51821:51821/tcp
     environment:
       - WG_HOST=${SERVER_IP:-127.0.0.1}
       - PASSWORD=${ADMIN_PASSWORD:-admin}
