@@ -8,7 +8,7 @@
       ],
       "description": "The easiest way to run WireGuard server with Web-based Admin UI.",
       "post_up_info": "Browse to http://{host-ip}:51821 to access the Web-based Admin UI.\nDefault password: admin",
-      "note": "Browse to <a href='http://{host-ip}:<51821'>http://{host-ip}:51821</a> to access the rabbitmq-management web interface.<ulstyle='padding-left:20px'><li>Default password: admin</li>",
+      "note": "Browse to <a href='http://{host-ip}:<51821'>http://{host-ip}:51821</a> to access the Web-based Admin UI.<ulstyle='padding-left:20px'><li>Default password: admin</li>",
       "env": [
         {
           "default": "admin",
