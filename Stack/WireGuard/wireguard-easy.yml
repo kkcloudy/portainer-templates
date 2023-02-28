@@ -1,0 +1,19 @@
+services:
+
+  wireguard-server:
+    image: weejewel/wg-easy
+    restart: unless-stopped
+    ports:
+      - 51820:51820
+      - 51821:51821
+    environment:
+      - WG_HOST=${SERVER_IP:-127.0.0.1}
+      - PASSWORD=${ADMIN_PASSWORD:-changeme}
+    volumes:
+      - ${CONFIG_PATH:-/etc/wireguard}:/etc/wireguard
+    sysctls:
+      - net.ipv4.conf.all.src_valid_mark=1
+      - net.ipv4.ip_forward=1
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
