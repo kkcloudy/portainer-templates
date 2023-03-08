@@ -9,7 +9,7 @@
       "description": "Rapid SCADA is an open source industrial automation platform. The out of the box software provides tools for rapid creation of monitoring and control systems.",
       "post_up_info": "Browse to http://{host-ip}/scada to access the RapidScada web interface.\nDefault uasername: admin\nDefault password: 123456",
       "note": "Browse to <a href='http://{host-ip}/scada'>http://{host-ip}/scada</a> to access the RapidScada web interface.<ulstyle='padding-left:20px'><li>Default username: admin</li><li>Default password: 12345</li>",
-      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/rapidscada_logo.png",
+      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/_logo.png",
       "name": "rapidscada",
       "platform": "linux",
       "repository": {
