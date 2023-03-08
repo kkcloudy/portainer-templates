@@ -13,7 +13,7 @@
       "name": "rapidscada",
       "platform": "linux",
       "repository": {
-        "stackfile": "Stack/WireGuard/rapidscada.yml",
+        "stackfile": "Stack/RapidScada/rapidscada.yml",
         "url": "https://github.com/kkcloudy/portainer-templates"
       },
       "title": "RadpidScada",
