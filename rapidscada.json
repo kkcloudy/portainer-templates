@@ -16,7 +16,7 @@
         "stackfile": "Stack/RapidScada/rapidscada.yml",
         "url": "https://github.com/kkcloudy/portainer-templates"
       },
-      "title": "RadpidScada",
+      "title": "RapidScada",
       "type": 3
     }
   ]
