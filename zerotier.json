@@ -29,7 +29,7 @@
         }
       ],
       "image": "zerotier/zerotier:1.10.6",
-      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/wireguard_logo.png",
+      "logo": "https://github.com/kkcloudy/portainer-templates/raw/master/logo/ZeroTierIcon.png",
       "name": "ZeroTier",
       "platform": "linux",
       "restart_policy": "unless-stopped",
